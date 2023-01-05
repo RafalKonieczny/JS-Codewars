@@ -45,3 +45,21 @@ function addLength(str) {
 
 addLength('apple ban');
 // addLength('you will win');
+
+
+// 4.Third Angle of a Triangle
+
+// You are given two interior angles (in degrees) of a triangle.
+// Write a function to return the 3rd.
+// Note: only positive integers will be tested.
+
+function otherAngle(a, b) {
+  let sum = a + b;
+  let thirdAngle = 180 - sum;
+  return thirdAngle;
+}
+
+otherAngle(30, 60);
+// otherAngle(60, 60);
+// otherAngle(43, 78);
+// otherAngle(10, 20);
