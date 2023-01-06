@@ -130,3 +130,41 @@ abbrevName("Sam Harris");
 // abbrevName("Evan Cole");
 // abbrevName("P Favuzzi");
 // abbrevName("David Mendieta");
+
+
+// 8. Count by X
+// Create a function with two arguments that will return an array of the first n multiples of x.
+
+// Assume both the given number and the number of times to count will be positive numbers greater than 0.
+
+// Return the results as an array or list ( depending on language ).
+
+// Examples
+// countBy(1,10) === [1,2,3,4,5,6,7,8,9,10];
+// countBy(2,5) === [2,4,6,8,10];
+
+function countBy(x, n) {
+  let z = [];
+  for (let i = 1; i <= n; i++) {
+    z.push(x * i);
+  }
+  return z;
+};
+
+countBy(1,10);
+// countBy(2,5);
+
+
+// 9. Grasshopper - Debug sayHello
+// Debugging sayHello function
+// The starship Enterprise has run into some problem when creating a program to greet everyone as they come aboard. It is your job to fix the code and get the program working again!
+
+function sayHello(name) {
+  return `Hello, ${name}`
+};
+
+sayHello('Mr. Spock');
+// sayHello('Captain Kirk');
+// sayHello('Liutenant Uhura');
+// sayHello('Dr. McCoy');
+
