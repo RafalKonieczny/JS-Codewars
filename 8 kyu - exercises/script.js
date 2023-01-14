@@ -222,3 +222,10 @@ powersOfTwo(1);
 // powersOfTwo(2);
 // powersOfTwo(4);
 
+// 13. Make a program that filters a list of strings and returns a list with only your friends name in it max 4 characters
+
+function friend(friends) {
+  return friends.filter((element) => element.length === 4);
+}
+
+friend(["Jimm", "Cari", "aret", "truehdnviegkwgvke", "sixtyiscooooool"])
