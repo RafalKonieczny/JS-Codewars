@@ -97,6 +97,25 @@ function minSum(arr) {
     a += sorted[i] * sorted[sorted.length - i - 1];
   }
   return a;
-}
+};
 
 console.log(minSum([1, 2, 3, 4]));  
+
+
+// 5. Find the stray number
+// You are given an odd-length array of integers, in which all of them are the same, except for one single number.
+// Complete the method which accepts such an array, and returns that single different number.
+// The input array will always be valid! (odd-length >= 3)
+
+function stray(numbers) {
+  let result = 0;
+  for (let i = 0; i < numbers.length; i++) {
+    result ^= numbers[i];
+  }
+  return result;
+};
+
+stray([1, 1, 2]);
+// stray([1, 2, 1]);
+// stray([2, 1, 1]);
+
