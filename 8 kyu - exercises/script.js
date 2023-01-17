@@ -249,3 +249,18 @@ function gooseFilter (birds) {
 gooseFilter(["Mallard", "Hook Bill", "African", "Crested", "Pilgrim", "Toulouse", "Blue Swedish"]);
 // gooseFilter(["Mallard", "Barbary", "Hook Bill", "Blue Swedish", "Crested"]);
 // gooseFilter(["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"]);
+
+
+// 15. What is between?
+// Complete the function that takes two integers (a, b, where a < b) and return an array of all integers between the input parameters, including them.
+
+function between(a, b) {
+  let arr = [];
+  for (var i = a; i <= b; i++) {
+      arr.push(i);
+  }
+  return arr;
+}
+
+between(1, 4);
+// between(-2, 2);
