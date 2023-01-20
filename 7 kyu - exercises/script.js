@@ -148,3 +148,14 @@ function arithmetic(a, b, operator) {
 
 arithmetic(1, 2, "add");
 // arithmetic(8, 2, "subtract");
+
+
+// 8. String ends with?
+// Complete the solution so that it returns true if the first argument(string) passed in ends with the 2nd argument (also a string).
+
+function solution(str, ending){
+  return str.endsWith(ending);
+}
+
+solution('abcde', 'cde');
+// solution('abcde', 'abc');
