@@ -159,3 +159,19 @@ function solution(str, ending){
 
 solution('abcde', 'cde');
 // solution('abcde', 'abc');
+
+
+// 9. Round up to the next multiple of 5
+// Given an integer as input, can you round it to the next (meaning, "greater than or equal") multiple of 5?
+
+// 9.1 First solution
+function roundToNext5(n){
+  return Math.abs(Math.ceil(n / 5) * 5) * Math.sign(n);
+}
+
+// 9.2 Second solution
+// function roundToNext5(n){
+//   return Math.ceil(n / 5) * 5;
+// }
+
+roundToNext5(29);
