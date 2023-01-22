@@ -264,3 +264,14 @@ function between(a, b) {
 
 between(1, 4);
 // between(-2, 2);
+
+
+// 16. Convert a string to an array
+// Write a function to split a string and convert it into an array of words.
+
+function stringToArray(string){
+  return string.split(" ");
+}
+
+stringToArray("Robin Singh");
+// stringToArray("I love arrays they are my favorite");
