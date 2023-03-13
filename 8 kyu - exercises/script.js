@@ -289,3 +289,21 @@ function testEven(n) {
 }
 
 testEven(1);
+
+
+// 18. Grasshopper - Personalized Message
+// Create a function that gives a personalized greeting. This function takes two parameters: name and owner.
+// Use conditionals to return the proper message:
+// case: name equals owner	return: 'Hello boss'
+// case: otherwise	return: 'Hello guest'
+
+function greet (name, owner) {
+  if (name === owner) {
+    return "Hello boss";
+  } else {
+    return "Hello guest";
+  }
+}
+
+greet('Daniel', 'Daniel');
+// greet('Greg', 'Daniel');
