@@ -194,4 +194,4 @@ const binaryArrayToNumber = arr => {
 // binaryArrayToNumber([0,0,0,1]);
 binaryArrayToNumber([0,1,0,1]);
 
-
+// 12.
